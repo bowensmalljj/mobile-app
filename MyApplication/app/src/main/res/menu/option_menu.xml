@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/refresh"
+        android:title="REFRESH"
+        app:showAsAction="ifRoom"/>
+
+    <item
+            android:id="@+id/clear_event_form"
+            android:title="Clear Event Form"
+            android:onClick="onOptionsItemSelected"/>
+    <item
+        android:id="@+id/delete_all_categories"
+        android:title="Delete All Categories"
+        android:onClick="onOptionsItemSelected"/>
+    <item
+        android:id="@+id/delete_all_events"
+        android:title="Delete All Events"
+        android:onClick="onOptionsItemSelected"/>
+
+
+</menu>
